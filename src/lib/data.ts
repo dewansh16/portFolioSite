@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "../../public/corpcomment.png";
-import rmtdevImg from "../../public/rmtdev.png";
-import wordanalyticsImg from "../../public/wordanalytics.png";
+import corpcommentImg from "../../public/friendChat.png";
+import rmtdevImg from "../../public/dreaddit.png";
+import wordanalyticsImg from "../../public/campKorba.png";
 
 export const links = [
   {
@@ -34,53 +34,64 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  // {
+  //   title: "Graduated bootcamp",
+  //   location: "Miami, FL",
+  //   description:
+  //     "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+  //   icon: React.createElement(LuGraduationCap),
+  //   date: "2019",
+  // },
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Developer Intern",
+    location: "Live247.ai",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a React Developer.Integrated a dashboard, role-based access control system, alerts system, and other features to monitor patients' vital trends.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "06/2021 - 03/2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "FullStack Developer Intern",
+    location: "Uttertale",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Worked as a Full Stack Developer, managing React frontend and Node backend. Implemented reply, mention, file upload, search, and role-based interactions in a chat app using Redis and AWS S3.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "02/2023 - 07/2023",
+  },
+  {
+    title: "Systems Engineer",
+    location: "Tata Consultancy Services",
+    description:
+      "As a Full Stack Developer, I slashed manual tracking by 80% by implementing third-party vendor onboarding on Enbridge's platform using shadcnui, React Hook Forms, and Zod.",
+    icon: React.createElement(FaReact),
+    date: "08/2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "FriendChat ",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Next.js chat application with real-time messaging, email-based friend requests, and Google authentication.",
+    tags: ["TypeScript", "Next.js", "Redis", "Tailwind", "Pusher"],
     imageUrl: corpcommentImg,
+    link: "https://friend-chats.vercel.app/dashboard",
   },
   {
-    title: "rmtDev",
+    title: "Dreaddit",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A Modern Fullstack Reddit Clone. Incorporated dynamic post loading with infinite scrolling, and integrated NextAuth with Google for streamlined authentication.",
+    tags: ["Next.js", "Redis", "Tailwind", "React-Query", "TypeScript"],
     imageUrl: rmtdevImg,
+    link: "https://dreaddit.vercel.app/",
   },
   {
-    title: "Word Analytics",
+    title: "CampKorba",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "a full-stack, fully functional web application where people can submit campgrounds and users can review them.",
+    tags: ["Node.js", "Express", "MongoDB", "Bootstrap", "ejs"],
     imageUrl: wordanalyticsImg,
+    link: "https://campkorba-dewansh16.onrender.com",
   },
 ] as const;
 
@@ -97,11 +108,11 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
+  "PostgreSQL",
+  "AWS",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "Recoil",
+  "Redis",
   "Framer Motion",
 ] as const;
