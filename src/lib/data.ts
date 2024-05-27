@@ -47,7 +47,7 @@ export const experiencesData = [
     location: "Live247.ai",
     description:
       "I worked as a React Developer.Integrated a dashboard, role-based access control system, alerts system, and other features to monitor patients' vital trends.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaReact),
     date: "06/2021 - 03/2022",
   },
   {
